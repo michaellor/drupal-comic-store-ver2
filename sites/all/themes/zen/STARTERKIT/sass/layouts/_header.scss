@@ -1,0 +1,39 @@
+.header {
+  min-width: 100%;
+  background: url('http://i.kinja-img.com/gawker-media/image/upload/s--3aaNWye---/c_scale,fl_progressive,q_80,w_800/dkddcimqvz2tm4uurukv.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+#header {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__secondary-menu {
+    align-self: flex-start;
+}
+
+.inline {
+    display: inline;
+    padding: 0;
+    position: absolute;
+    margin-left: 25rem;
+}
+
+#site-name {
+  span{
+    color: white;
+    text-decoration: none;
+  }
+}
+
+#main-menu {
+  a {
+    color: black;
+  }
+}
