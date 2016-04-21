@@ -918,7 +918,7 @@ table {
 /* line 14, ../sass/layouts/_sidebar.scss */
 .two-sidebars #content {
   float: left;
-  width: 100%;
+  width: 60%;
   margin-left: 40%;
   position: absolute;
   margin-right: 0;
@@ -944,6 +944,17 @@ body {
 /* line 7, ../sass/layouts/_main.scss */
 .sidebar-first #content {
   margin-left: 40%;
+}
+
+/* line 11, ../sass/layouts/_main.scss */
+article {
+  z-index: 2;
+}
+
+/* line 15, ../sass/layouts/_main.scss */
+.field-items {
+  position: relative;
+  z-index: 2;
 }
 
 /* Component (SMACSS module) rules */
@@ -1890,4 +1901,10 @@ nav a {
 /* line 9, ../sass/components/_navigation.scss */
 .breadcrumb {
   display: none;
+}
+
+/* line 1, ../sass/components/_tabs.scss */
+.tabs-primary {
+  position: relative;
+  z-index: 2;
 }

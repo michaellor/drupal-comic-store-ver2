@@ -7,3 +7,12 @@ body {
 .sidebar-first #content {
   margin-left: 40%;
 }
+
+article {
+  z-index: 2;
+}
+
+.field-items {
+  position: relative;
+  z-index: 2;
+}
