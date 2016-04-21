@@ -858,15 +858,33 @@ table {
 }
 /* Layout */
 /* line 1, ../sass/layouts/_header.scss */
-.header {
-  min-width: 100%;
-  background: url("http://i.kinja-img.com/gawker-media/image/upload/s--3aaNWye---/c_scale,fl_progressive,q_80,w_800/dkddcimqvz2tm4uurukv.jpg") center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 600px;
+body {
+  background-color: #4D4D4D;
 }
 
-/* line 9, ../sass/layouts/_header.scss */
+/* line 5, ../sass/layouts/_header.scss */
+#content {
+  background-color: #696969;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+/* line 11, ../sass/layouts/_header.scss */
+#navigation {
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 16, ../sass/layouts/_header.scss */
+.header {
+  min-width: 100%;
+  background: url("https://w-dog.net/wallpapers/15/19/425956979488396/iron-man-alien-marvel-comics-art-man-underground-suit-column-tile.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 450px;
+}
+
+/* line 24, ../sass/layouts/_header.scss */
 #header {
   padding-left: 0;
   padding-right: 0;
@@ -875,12 +893,12 @@ table {
   justify-content: center;
 }
 
-/* line 17, ../sass/layouts/_header.scss */
+/* line 32, ../sass/layouts/_header.scss */
 .header__secondary-menu {
   align-self: flex-start;
 }
 
-/* line 21, ../sass/layouts/_header.scss */
+/* line 36, ../sass/layouts/_header.scss */
 .inline {
   display: inline;
   padding: 0;
@@ -888,13 +906,15 @@ table {
   margin-left: 25rem;
 }
 
-/* line 29, ../sass/layouts/_header.scss */
+/* line 44, ../sass/layouts/_header.scss */
 #site-name span {
   color: white;
+  font-family: sans-serif;
+  text-shadow: 2px 4px 3px black;
   text-decoration: none;
 }
 
-/* line 36, ../sass/layouts/_header.scss */
+/* line 53, ../sass/layouts/_header.scss */
 #main-menu a {
   color: black;
 }

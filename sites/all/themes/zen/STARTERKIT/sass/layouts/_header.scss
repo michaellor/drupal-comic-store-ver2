@@ -1,9 +1,24 @@
+body {
+  background-color: #4D4D4D;
+}
+
+#content {
+  background-color: #696969;
+  border-radius: 15px;
+  padding: 35px;
+}
+
+#navigation {
+  text-align: center;
+  padding: 10px;
+}
+
 .header {
   min-width: 100%;
-  background: url('http://i.kinja-img.com/gawker-media/image/upload/s--3aaNWye---/c_scale,fl_progressive,q_80,w_800/dkddcimqvz2tm4uurukv.jpg') center no-repeat;
+  background: url('https://w-dog.net/wallpapers/15/19/425956979488396/iron-man-alien-marvel-comics-art-man-underground-suit-column-tile.jpg') center no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 450px;
 }
 
 #header {
@@ -28,6 +43,8 @@
 #site-name {
   span{
     color: white;
+    font-family: sans-serif;
+    text-shadow: 2px 4px 3px black;
     text-decoration: none;
   }
 }
